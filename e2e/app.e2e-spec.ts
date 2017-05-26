@@ -1,10 +1,10 @@
-import { Ng2PhonegapPage } from './app.po';
+import { MyAppPage } from './app.po';
 
-describe('ng2-phonegap App', () => {
-  let page: Ng2PhonegapPage;
+describe('my-app App', () => {
+  let page: MyAppPage;
 
   beforeEach(() => {
-    page = new Ng2PhonegapPage();
+    page = new MyAppPage();
   });
 
   it('should display message saying app works', () => {
