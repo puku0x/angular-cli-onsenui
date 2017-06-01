@@ -1,6 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import { OnsNavigator, Params } from 'angular2-onsenui';
+
 import { Page2Component } from './page2.component';
 
 describe('Page2Component', () => {
@@ -9,9 +8,7 @@ describe('Page2Component', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ Page2Component ],
-      schemas: [CUSTOM_ELEMENTS_SCHEMA],
-      providers: [OnsNavigator, Params]
+      declarations: [ Page2Component ]
     })
     .compileComponents();
   }));

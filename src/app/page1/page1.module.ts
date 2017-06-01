@@ -1,11 +1,8 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { Page1Component } from './page1.component';
 
 @NgModule({
-  imports: [
-    CommonModule,
-  ],
+  imports: [],
   entryComponents: [Page1Component],
   declarations: [Page1Component],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]

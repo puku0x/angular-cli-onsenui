@@ -8,9 +8,9 @@
       "root": "src",
       "outDir": "www",
       "assets": [
+        "assets",
         "res",
         "img",
-        "assets",
         "favicon.ico"
       ],
       "index": "index.html",

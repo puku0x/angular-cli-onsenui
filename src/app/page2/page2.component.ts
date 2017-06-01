@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { OnsNavigator, Params} from 'angular2-onsenui';
+import { OnsNavigator, Params } from 'angular2-onsenui';
 
 @Component({
   selector: 'ons-page[page2]',
