@@ -112,6 +112,7 @@
       true,
       "element",
       "app",
+      "ons-page",
       "kebab-case"
     ],
     "use-input-property-decorator": true,
