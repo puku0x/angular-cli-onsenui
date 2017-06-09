@@ -3,7 +3,7 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { OnsenModule } from 'angular2-onsenui';
+import { OnsenModule } from 'ngx-onsenui';
 import { Page1Module } from './page1/page1.module';
 import { Page2Module } from './page2/page2.module';
 

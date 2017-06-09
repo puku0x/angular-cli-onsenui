@@ -21,13 +21,9 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "../node_modules/onsenui/css/onsenui.css",
-        "../node_modules/onsenui/css/onsen-css-components.css",
         "styles.scss"
       ],
-      "scripts": [
-        "../node_modules/onsenui/js/onsenui.min.js"
-      ],
+      "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
