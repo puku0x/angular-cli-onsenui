@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { OnsNavigator, Params } from 'ngx-onsenui';
+
 import { Page2Component } from '../page2/page2.component';
 
 @Component({
