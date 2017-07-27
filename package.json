@@ -4,8 +4,11 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "phonegap": "phonegap",
+    "start": "npm-run-all -p watch:*",
     "build": "ng build",
+    "watch:build": "ng build --watch",
+    "watch:serve": "phonegap serve",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -22,6 +25,8 @@
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
     "core-js": "^2.4.1",
+    "ngx-onsenui": "^4.0.0-rc.1",
+    "onsenui": "^2.5.1",
     "rxjs": "^5.4.1",
     "zone.js": "^0.8.14"
   },
@@ -41,8 +46,8 @@
     "karma-coverage-istanbul-reporter": "^1.2.1",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
-    "ngx-onsenui": "^4.0.0-rc.1",
-    "onsenui": "^2.5.1",
+    "npm-run-all": "^4.0.2",
+    "phonegap": "^6.5.2",
     "protractor": "~5.1.2",
     "ts-node": "~3.0.4",
     "tslint": "~5.3.2",
