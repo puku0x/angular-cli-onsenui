@@ -1,10 +1,12 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { OnsenModule } from 'ngx-onsenui';
 import { CommonModule } from '@angular/common';
 import { Page2Component } from './page2.component';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    OnsenModule
   ],
   entryComponents: [Page2Component],
   declarations: [Page2Component],
