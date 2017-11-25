@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { OnsNavigator, Params } from 'ngx-onsenui';
 
 @Component({
-  selector: 'ons-page[page2]',
+  selector: 'ons-page[app-page2]',
   templateUrl: './page2.component.html',
   styleUrls: ['./page2.component.scss']
 })
